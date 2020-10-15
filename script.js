@@ -37,6 +37,11 @@ const emoji=document.querySelector(".emoji");
         emoji.innerHTML="🌧️";
     }else if(data.weather[0].main === "Haze"){
         emoji.innerHTML="☁";
+    }else if (data.weather[0].main === "Smoke"){
+        emoji.innerHTML="🌫";
+    }
+    else if (data.weather[0].main === "Snow"){
+        emoji.innerHTML="❄️"
     }
     });
    console.log(city_name.value)
