@@ -1,0 +1,114 @@
+body {
+background:linear-gradient(to bottom ,#2d6187 30%,#28abb9 70%) ;
+display: flex;
+flex-direction: column;
+color: #effad3;
+font-size: 1.8rem;
+font-family: 'Ubuntu', sans-serif;
+background-size: cover;
+background-repeat: no-repeat;
+height: auto;
+max-height: auto;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 18px;
+}
+    h1 {
+        font-size: 2.3rem;
+        font-weight: 700;
+        color: #effad3;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    header {
+        padding: 10px 5px ;
+        font-size: 1.4rem;
+    }
+    .input-erea {
+        display: flex;
+        width: 400px;
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+        justify-content: center;
+        box-shadow: 2px 2px 5px rgb(0,0,0,0.1);
+        margin:0 auto;
+    }
+        .input-erea input {
+            width: 84%;
+            height: 98%;
+            font-size: 1.1rem;
+            border-top-left-radius:15px ;
+            border-bottom-left-radius: 15px;
+            border: none;
+            padding: 0 5px;
+        }
+        .input-erea input:focus {
+            outline: none;
+            box-shadow: none;
+        }
+        .input-erea button {
+            width: 16%;
+            height: 100%;
+            background: #555555;
+            color: #fbf7f0;
+            border-top-right-radius:15px ;
+            border-bottom-right-radius: 15px;
+            border: none;
+        }
+        .input-erea button:hover {
+            background: #646464;
+        }
+        .input-erea button:focus {
+            outline: none;
+            box-shadow: none;
+        }
+        .item {
+            box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            width: 200px;
+            margin: 10px;
+            padding: 15px;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .item h4 {
+            color: #555555;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .item p {
+            font-family: 'Montserrat', sans-serif;
+            color:#2d6187;
+            margin-top: -20px;
+            font-size: 1.4rem;
+        }
+        .output-erea {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+        }
+        @media (max-width:1200px){
+            body {
+                height: auto;
+            }
+        }
+        @media (max-width:600px){
+            .input-erea {
+                width: 230px;
+            }
+        }
+        .emoji {
+            font-size: 7rem;
+            margin: 0 auto;
+display: flex;
+justify-content: center;
+        }
